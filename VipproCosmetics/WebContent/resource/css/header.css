@@ -1,0 +1,77 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+li {
+  list-style: none;
+}
+
+/* header */
+nav {
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  background: #ff8040;
+}
+
+nav .content-nav {
+  display: flex;
+  line-height: 2rem;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 60%;
+}
+
+nav .content-nav ul {
+  display: flex;
+}
+
+nav .content-nav ul li a {
+  text-decoration: none;
+  color: #43433e;
+  text-transform: uppercase;
+  padding: 0 15px;
+  font-weight: 800;
+}
+
+nav .content-nav ul li a:hover {
+  color: #fff;
+}
+
+.content-nav form {
+  position: relative;
+}
+
+.content-nav form input {
+  border: none;
+  background: #fff;
+  padding: 7px;
+  outline: none;
+  border-radius: 12px;
+}
+
+.content-nav form button {
+  padding: 5px;
+  border-radius: 12px;
+  position: absolute;
+  right: 0;
+  top: 2px;
+  border: none;
+  outline: none;
+  background: #fff;
+}
+#cart {
+  font-size: 15px;
+  color: #fff;
+  background: #ff8040;
+  border: 1px solid #ff8040;
+  border-radius: 10px;
+  outline: none;
+  margin-left: 1rem;
+  padding: 12px;
+  cursor: pointer;
+}

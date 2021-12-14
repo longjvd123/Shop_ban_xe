@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+encoding//WebContent/WEB-INF/views/admin.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/cart.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/header.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/introduce.jsp=UTF-8
+encoding//src/com/dinhlong/vipprocosmetics/dao/CosmeticsDao.java=UTF-8
+encoding//src/com/dinhlong/vipprocosmetics/dao/OrderDao.java=UTF-8
+encoding//src/com/dinhlong/vipprocosmetics/entity/Cosmetics.java=UTF-8
+encoding//src/com/dinhlong/vipprocosmetics/service/CosmeticsService.java=UTF-8
+encoding//src/com/dinhlong/vipprocosmetics/service/OrderService.java=UTF-8
+encoding//src/com/dinhlong/vipprocosmetics/servlet/RegisterServlet.java=UTF-8
+encoding//src/com/dinhlong/vipprocosmetics/servlet/imageServlet.java=UTF-8
+encoding//src/com/dinhlong/vipprocosmetics/util/FileUtil.java=UTF-8

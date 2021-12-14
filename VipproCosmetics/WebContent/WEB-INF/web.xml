@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>VipproCosmetics</display-name>
+  <welcome-file-list>
+    <welcome-file>HomeServlet</welcome-file>
+  </welcome-file-list>
+  <session-config>
+    <session-timeout>20</session-timeout>
+  </session-config>
+  <filter>
+    <filter-name>AuthenticationFilter</filter-name>
+    <filter-class>com.dinhlong.vipprocosmetics.filter.AuthenticationFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>AuthenticationFilter</filter-name>
+    <url-pattern>/AdminServlet</url-pattern>
+    <url-pattern>/AdminOrderServlet</url-pattern>
+    <url-pattern>/AdminCosmeticsServlet</url-pattern>
+    <url-pattern>/DeleteOrderServlet</url-pattern>
+    <url-pattern>/DeleteServlet</url-pattern>
+    <url-pattern>/InsertCosmeticsServlet</url-pattern>
+    <url-pattern>/InsertOrderServlet</url-pattern>
+    <url-pattern>/LogoutServlet</url-pattern>
+    <url-pattern>/UpdateServlet</url-pattern>
+  </filter-mapping>
+  <filter>
+    <filter-name>AuthorizationFilter</filter-name>
+    <filter-class>com.dinhlong.vipprocosmetics.filter.AuthorizationFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>AuthorizationFilter</filter-name>
+    <url-pattern>/AdminServlet</url-pattern>
+    <url-pattern>/AdminOrderServlet</url-pattern>
+    <url-pattern>/AdminCosmeticsServlet</url-pattern>
+    <url-pattern>/DeleteOrderServlet</url-pattern>
+    <url-pattern>/DeleteServlet</url-pattern>
+    <url-pattern>/InsertCosmeticsServlet</url-pattern>
+    <url-pattern>/UpdateServlet</url-pattern>
+  </filter-mapping>
+</web-app>
